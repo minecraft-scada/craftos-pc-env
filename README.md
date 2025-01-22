@@ -15,7 +15,7 @@ computer_dirs = [ '0' ,'1', '2' ]
 ```
 
 ### Usage
-A modified version of the `cc-mek-scada` 'bootloader' startup.lua application is present on the computers. This will automatically launch the respective `init.lua` file (different name for each type of device) if it determines it hasn't yet been ran. If it doesn't auto-launch, or you want to re-run it, you would run that file from the computer.
+A modified version of the cc-mek-scada 'bootloader' `startup.lua` application is present on the computers. This will automatically launch the respective `init.lua` file (different name for each type of device) if it determines it hasn't yet been ran. If it doesn't auto-launch, or you want to re-run it, you would run that file from the computer.
 
 From then on, the computer can be used just like one with that application installed in-game for testing purposes.
 
