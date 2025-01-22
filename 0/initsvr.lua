@@ -5,7 +5,7 @@ file.close()
 
 -- set ID
 ---@diagnostic disable-next-line: undefined-field
-os.setComputerLabel("supervisor")
+os.setComputerLabel("Supervisor")
 
 -- mount peripherals
 periphemu.create("back", "modem")
