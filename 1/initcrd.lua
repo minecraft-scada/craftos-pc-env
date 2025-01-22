@@ -5,7 +5,7 @@ file.close()
 
 -- set ID
 ---@diagnostic disable-next-line: undefined-field
-os.setComputerLabel("coordinator")
+os.setComputerLabel("Coordinator")
 
 -- mount peripherals
 periphemu.create(1, "monitor")
