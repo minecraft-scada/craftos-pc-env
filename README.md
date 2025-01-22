@@ -1,10 +1,10 @@
 # craftos-pc-env
-Startup and initialization scripts for a [CraftOS-PC](https://www.craftos-pc.cc/) testing environment.
+Startup and initialization scripts for a [CraftOS-PC](https://www.craftos-pc.cc/) [cc-mek-scada](https://github.com/MikaylaFischler/cc-mek-scada) testing environment.
 
 ## How To Use
 
 ### Cloning/Downloading
-This repostiroy should be cloned/downloaded into the 
+This repository should be cloned/downloaded into the 
 [computer directory](https://www.craftos-pc.cc/docs/saves) of your CraftOS-PC installation. The IDs here will then correlate to computers with those IDs. If you already have computers using those IDs, you can either use different ones for this project or move your existing files.
 
 ### Setup
