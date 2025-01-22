@@ -1,11 +1,11 @@
 # craftos-pc-env
-Startup and initialization scripts for a CraftOS-PC testing environment.
+Startup and initialization scripts for a [CraftOS-PC](https://www.craftos-pc.cc/) testing environment.
 
 ## How To Use
 
 ### Cloning/Downloading
 This repostiroy should be cloned/downloaded into the 
-[computer directory](https://www.craftos-pc.cc/docs/saves) of your [CraftOS-PC](https://www.craftos-pc.cc/) installation. The IDs here will then correlate to computers with those IDs. If you already have computers using those IDs, you can either use different ones for this project or move your existing files.
+[computer directory](https://www.craftos-pc.cc/docs/saves) of your CraftOS-PC installation. The IDs here will then correlate to computers with those IDs. If you already have computers using those IDs, you can either use different ones for this project or move your existing files.
 
 ### Setup
 Run `init.py` and provide the absolute path to the git clone of [cc-mek-scada](https://github.com/MikaylaFischler/cc-mek-scada). This will create a path file for **every** currently existing computer so mounts can be determined automatically. If you only wish to generate this for some of your computers, set the values in the `computer_dirs` value in the script:
