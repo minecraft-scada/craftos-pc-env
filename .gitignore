@@ -1,0 +1,10 @@
+*.settings
+*.txt
+*.pdf
+
+# reserved for testing not to be committed
+*test*
+*sha2*
+
+# macos
+.DS_Store

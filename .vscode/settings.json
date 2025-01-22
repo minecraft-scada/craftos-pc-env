@@ -1,0 +1,32 @@
+{
+    "Lua.diagnostics.globals": [
+        "_HOST",
+        "bit",
+        "colors",
+        "fs",
+        "http",
+        "keys",
+        "parallel",
+        "periphemu",
+        "peripheral",
+        "read",
+        "rs",
+        "settings",
+        "shell",
+        "term",
+        "textutils",
+        "window",
+        "mounter"
+    ],
+    "Lua.diagnostics.severity": {
+        "unused-local": "Information",
+        "unused-vararg": "Information",
+        "unused-function": "Warning",
+        "unused-label": "Information"
+    },
+    "Lua.hint.setType": true,
+    "Lua.diagnostics.disable": [
+        "duplicate-set-field",
+        "inject-field"
+    ]
+}
