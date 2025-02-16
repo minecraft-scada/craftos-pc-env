@@ -8,7 +8,7 @@ file.close()
 os.setComputerLabel("RTU Gateway")
 
 -- mount peripherals
-periphemu.create("rtu", "modem")
+periphemu.create("back", "modem")
 
 -- mount directories
 mounter.mount("rtu", path .. "/rtu/", true)
